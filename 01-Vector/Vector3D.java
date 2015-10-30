@@ -21,6 +21,7 @@ public class Vector3D
         this. x=x;
         this.y=y;
         this.z=z;
+    
     }
     public double getX(){
         return x;
@@ -31,6 +32,7 @@ public class Vector3D
     public double getZ(){
         return z;
     }
-
+    
+    
     
 }
