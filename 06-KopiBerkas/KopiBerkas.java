@@ -3,7 +3,16 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 public class KopiBerkas{
-    public void kopi(String sumber, String sasaran) throws IOException {
+    public static void main(String[] args)  {
+        try {
+            KopiBerkas ko = new KopiBerkas();
+            ko.kopi("ola.txt.txt","baru.txt");
+        }
+        catch (IOException kesalahan) {
+            System.out.printf("Terjadi kesalahan: %s", kesalahan);
+        }
+    }
+    public void kopi (String sumber, String sasaran) throws IOException {
         FileInputStream masukan = null;
         FileOutputStream keluaran = null;
 
