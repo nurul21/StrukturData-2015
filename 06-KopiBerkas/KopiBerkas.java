@@ -3,7 +3,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 public class KopiBerkas{
-    public static void main(String[] args)  {
+   public static void main(String[] args)  {
         try {
             KopiBerkas ko = new KopiBerkas();
             ko.kopi("ola.txt.txt","baru.txt");
